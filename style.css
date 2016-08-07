@@ -1,0 +1,57 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+header{
+	height: 80px;
+	width: 100%;
+	background-color: #f0f0f0;
+}
+#premiumPic{
+	background-image: url(img/premium.png);
+	background-repeat: no-repeat;
+	float: right;
+	width: 60px;
+	height: 100%;
+	margin: 12px;
+}
+#mainMenu ul{
+	list-style: none;
+    padding: 25px;
+    margin-right: 70px;
+    float: right;
+    margin: 0;
+}
+#mainMenu li{
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    vertical-align: top;
+    float: right;
+    padding: 10px;
+    font-size: 18px; 
+}
+#logo{
+	background-image: url(img/iDigital.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 100px;
+	height: 40%;
+	margin-top: 25px;
+    margin-left: 30px;
+}
+#secondMenu{
+	height: 30px;
+	width: 100%;
+}
+#secondMenu ul{
+	list-style: none;
+	float: right;
+	margin:0;
+	padding: 0;
+}
+#secondMenu ul li{
+	float: right;
+	width: 20%;
+    text-align: center;
+}
