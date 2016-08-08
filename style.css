@@ -7,6 +7,10 @@ header{
 	width: 100%;
 	background-color: #f0f0f0;
 }
+.clear-box{
+	clear:both;
+	overflow: hidden;
+}
 #premiumPic{
 	background-image: url(img/premium.png);
 	background-repeat: no-repeat;
@@ -49,9 +53,98 @@ header{
 	float: right;
 	margin:0;
 	padding: 0;
+	width: 100%;
 }
 #secondMenu ul li{
 	float: right;
 	width: 20%;
     text-align: center;
+}
+#secondMenu li img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#slider{
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	position: relative;
+}
+.slider-img{
+	width: 100%;
+	height: 100%;
+	animation: r 20s infinite;
+	opacity: 0;
+	position: absolute;
+}
+@keyframes r{
+	10%{opacity: 1}
+	20%{opacity: 0}
+}
+img:nth-child(0){animation-delay: 0s}
+img:nth-child(1){animation-delay: 5s}
+img:nth-child(2){animation-delay: 10s}
+img:nth-child(3){animation-delay: 15s}
+
+#containOne{
+	margin: 0 auto;
+	width: 60%;
+	height: 40%;
+	border-bottom: 0.5px solid gray;
+}
+
+#containTwo{
+	margin: 0 auto;
+	width: 60%;
+	height: 40%;
+	border-bottom: 0.5px solid gray;
+}
+.pre-box{
+	width: 20%;
+	height: 100%;
+	float: right;
+	margin-right: 10%;
+	direction: rtl;
+	
+}
+.pre-box img{
+	height: 50%;
+	width: 80%;
+}
+.pre-box p{
+	color: gray;
+}
+#sliderTwo{
+	margin: 0 auto;
+	width: 60%;
+	height: 20%;
+	overflow: hidden;
+	position: relative;
+}
+footer{
+	height: 60%;
+	width: 100%;
+	background-color: #f0f0f0;
+	margin-top: 5%;
+	border-top:  0.5px solid gray;
+}
+#info{
+	margin: 0 auto;
+	width: 60%;
+	height: 70%;
+	border-bottom: 0.3px solid gray;
+	margin-top: 2%;
+}
+.info-ul{
+	float: right;
+	direction: rtl;
+	margin-left: 3%;
+}
+	
+	 
+.info-ul ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	color: gray;
 }
