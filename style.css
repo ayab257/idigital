@@ -122,7 +122,7 @@ img:nth-child(3){animation-delay: 15s}
 	position: relative;
 }
 footer{
-	height: 60%;
+	height: 55%;
 	width: 100%;
 	background-color: #f0f0f0;
 	margin-top: 5%;
@@ -131,9 +131,17 @@ footer{
 #info{
 	margin: 0 auto;
 	width: 60%;
-	height: 70%;
+	height: 50%;
 	border-bottom: 0.3px solid gray;
 	margin-top: 2%;
+}
+
+#lastFooter{
+	margin: 0 auto;
+	width: 60%;
+	height: 15%;
+	margin-top: 1%;
+
 }
 .info-ul{
 	float: right;
@@ -147,4 +155,20 @@ footer{
 	padding: 0;
 	margin: 0;
 	color: gray;
+}
+#navLast ul{
+	list-style: none;
+	
+}
+#navLast ul li{
+	float: right;
+	padding-left: 1%;
+	color: gray;
+}
+#footerLogo{
+	background-image: url(img/footer_logo.png);
+	background-repeat: no-repeat;
+	height: 45%;
+    width: 5%;
+	float: left;
 }
